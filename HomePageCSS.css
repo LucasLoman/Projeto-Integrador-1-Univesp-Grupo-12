@@ -14,19 +14,10 @@ body{
       border-width: 1px;
       border-color: black;
       overflow: hidden;
-      background-color: #333;
+      background: linear-gradient(to right, #333, black);
       position: relative;
       top: 0px;
       left: 0px;
-    }
-
-    .gradient1 {
-      height: 100%;
-      width: 100%;
-      background-image: linear-gradient(to left, black, transparent);
-      position: absolute;
-      bottom: 0;
-      left: 0;
     }
 
     .container img{
