@@ -92,7 +92,7 @@ body {
     h1 {
       color: #464866;
       position: relative;
-      left: 63.0%;
+      left: 870px;
       bottom: 130px;
     }
 
@@ -130,7 +130,7 @@ body {
       font-size: 2.5vh;
       text-align: center;
       position: relative;
-      right: 5%;
+      right: 85px;
       max-width: 30%;
       top: 30px;
     }
@@ -189,7 +189,7 @@ body {
     .caixa_distratora img {
       width: auto;
       height: auto;
-      margin: 1% 6.8% 1% 5%;
+      margin: 0% 81px;
       border-radius: 10px;
     }
 
