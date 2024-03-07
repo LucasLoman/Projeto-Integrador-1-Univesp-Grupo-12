@@ -27,9 +27,7 @@ body{
   #botao_form:hover{
     background-color: #3e8e41;
   }
-  p{
-    margin-right: 50%;
-  }
+  
   ul {
       list-style-type: none;
       margin: 0px;
@@ -49,7 +47,7 @@ body{
     .container img{
       float: left;
       max-width:500px;
-      max-height:72px;
+      max-height:61px;
       width: auto;
       height: auto;
     }
