@@ -92,7 +92,7 @@ body {
     h1 {
       color: #464866;
       position: relative;
-      left: 870px;
+      left: 835px;
       bottom: 130px;
     }
 
@@ -194,19 +194,6 @@ body {
       border-radius: 10px;
     }
 
-    /*    display: flex;
-      margin: 30px auto;
-      position: relative;
-      background: rgb(223, 9, 9);
-      height: 1200px;
-      width: 75%;
-
-    .caixa_1 img {
-      position: relative;
-      width: 30%;
-      height: auto;
-    }*/
-
 /* SEÇÃO DO FOOTER ---------- */
 
     .footer_banner {
@@ -239,8 +226,7 @@ body {
       left: 15%;
       transform: translate(-50%, -50%);
       color: #eae7dc;
-      font-size: 20px;
-      text-align: left;
+      font-size: 17px;
     }
 
     /* https://visme.co/blog/website-color-schemes/
