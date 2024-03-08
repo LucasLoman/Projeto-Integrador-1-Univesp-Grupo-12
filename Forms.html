@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="FormsCSS.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <div class="container img">
+               <a href="HomePage.html"> <img src="logo_autoita-semfundo.png" alt="Logo_Autoita"> </a>
+            </div>
+            <li><a href="HomePage.html"><b>Pagina Inicial</b></a></li>
+            <li><a href="Forms.html"><b>Trabalhe Conosco</b></a></li>
+            <li><a href="Contato.html"><b>Contato</b></a></li>
+        </ul>
+    </nav>
+    <main class="">
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Cadastro Concorrente à vaga</b></legend>
+                    <br>
+                    <p><b>Nome Completo:</b></p>
+                    <div class="inputBox">
+                        <input type="text" name="nome_c" id="nome_c" class="inputUser" required>
+                    </div>
+                    <br>                    
+                    <p><b>Data de Nascimento:</b></p>
+                    <div class="inputBox">
+                        <input type="date" name="data_nasc" id="data_nasc" class="inputUser" required>
+                        <label for="data_nasc"></label>
+                    </div>
+                    <br>
+                    <p><b>Sexo:</b></p>
+                        <input type="radio" name="Feminino" id="Feminino" value="Feminino">
+                        <label for="Feminino">Feminino</label>
+                        <br>
+                        <input type="radio" name="Masculino" id="Masculino" value="Masculino">
+                        <label for="Masculino">Masculino</label>
+                        <br>
+                        <input type="radio" name="Outro" id="Outro" value="Outro">
+                        <label for="Outro">Outro</label>
+                        <br>
+                        <p><b>Email:</b></p>
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email" class="inputUser" required>
+                    </div>
+                    <br>
+                    <p><b>Telefone:</b></p>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    </div>
+                    <br>
+                    <p><b>Endereço:</b></p>
+                    <div class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    </div>
+                    <br>
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+            </fieldset>
+        </form>
+    </div>
+    </main>
+    <footer class="footer_banner">
+        <div class="gradient2"></div>
+        <img src="AutoIta_Banner_Cortada.png" alt="Autoita-logo-footer">
+        <div class="texto_footer"><pre>
+Fale Conosco!
+
+(15)3531-2467
+
+(15)99679-7899
+
+autoitapecas@gmail.com</pre></div>
+    </footer>
+</body>
+</html>
