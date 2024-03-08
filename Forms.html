@@ -1,79 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt.br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="FormsCSS.css">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="FormsCSS.css">
 </head>
 <body>
-    <div class="box"> 
-        
-        <form action="">
-            <fieldset>
-                
-                <legend><b>Cadastro de funcionarios</b></legend>
-                <br>
-                <div class="inputbox">
-                    <input type="text" name="nome" id="nome" class="inputuser" required>
-                    <label for="nome">Nome completo</label>
-                </div>
-                <br><br>
-                <div class="inputbox">
-                    <input type="email" name="email" id="email" class="inputuser" required>
-                    <label for="email">Email</label>
-                </div>
-                <br><br>
-                <div class="inputbox">
-                    <input type="tel" name="telefone" id="telefone" class="inputuser" required>
-                    <label for="telefone">Telefone</label>
-                </div>
-                <br><br>
-                <p>Sexo</p>
-                <input type="radio" id="feminino" name="Genero" value="feminino" required>
-                <label for="feminino">Feminino</label>
-                <input type="radio" id="masculino" name="masculino" value="masculino" required>
-                <label for="masculino">Masculino</label>
-                <input type="radio" id="Outro" name="Outro" value="Outro" required>
-                <label for="Outro">Outro</label>
-                <br><br>
-                <div class="inputbox">
-                    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
-                    <input type="date" name="data_nascimento" id="data_nascimento" class="inputuser" required>
-                </div>
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="cidade" id="cidade" class="inputuser" required>
-                    <label for="cidade">Cidade</label>
-                </div>
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="estado" id="estado" class="inputuser" required>
-                    <label for="estado">Estado</label>
-                </div>
-                <br><br>
-                <div class="inputbox">
-                    <input type="text" name="endereco" id="endereco" class="inputuser" required>
-                    <label for="endereco">Endereço</label>
-                </div>
-                <br><br>
-                <div class="inputbox"></div>
-                <label for="escolaridade">Escolaridade</label>
-                <textarea name="escolaridade" id="escolaridade" cols="10" rows="2"></textarea required>
-                <br><br>
-                <label for="objetivo">Objetivo</label>
-                <textarea name="objetivo" id="objetivo" cols="10" rows="2"></textarea required>
-                <br><br>
-                <div>
-                <input type="submit" name="submit" id="submit">
-                </div>
-            
+    <nav>
+        <ul class="menu">
+            <div class="container img">
+               <a href="HomePage.html"> <img src="logo_autoita-semfundo.png" alt="Logo_Autoita"> </a>
+            </div>
+            <li><a href="HomePage.html"><b>Pagina Inicial</b></a></li>
+            <li><a href="Forms.html"><b>Trabalhe Conosco</b></a></li>
+            <li><a href="Contato.html"><b>Contato</b></a></li>
+        </ul>
+    </nav>
+    <main class="">
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>Cadastro Concorrente à vaga</b></legend>
+                    <br>
+                    <p><b>Nome Completo:</b></p>
+                    <div class="inputBox">
+                        <input type="text" name="nome_c" id="nome_c" class="inputUser" required>
+                    </div>
+                    <br>                    
+                    <p><b>Data de Nascimento:</b></p>
+                    <div class="inputBox">
+                        <input type="date" name="data_nasc" id="data_nasc" class="inputUser" required>
+                        <label for="data_nasc"></label>
+                    </div>
+                    <br>
+                    <p><b>Sexo:</b></p>
+                        <input type="radio" name="Feminino" id="Feminino" value="Feminino">
+                        <label for="Feminino">Feminino</label>
+                        <br>
+                        <input type="radio" name="Masculino" id="Masculino" value="Masculino">
+                        <label for="Masculino">Masculino</label>
+                        <br>
+                        <input type="radio" name="Outro" id="Outro" value="Outro">
+                        <label for="Outro">Outro</label>
+                        <br>
+                        <p><b>Email:</b></p>
+                    <div class="inputBox">
+                        <input type="email" name="email" id="email" class="inputUser" required>
+                    </div>
+                    <br>
+                    <p><b>Telefone:</b></p>
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    </div>
+                    <br>
+                    <p><b>Endereço:</b></p>
+                    <div class="inputBox">
+                        <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    </div>
+                    <br>
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
             </fieldset>
-
-        
         </form>
     </div>
+    </main>
+    <footer class="footer_banner">
+        <div class="gradient2"></div>
+        <img src="AutoIta_Banner_Cortada.png" alt="Autoita-logo-footer">
+        <div class="texto_footer"><pre>
+Fale Conosco!
 
-    
+(15)3531-2467
+
+(15)99679-7899
+
+autoitapecas@gmail.com</pre></div>
+    </footer>
 </body>
 </html>
