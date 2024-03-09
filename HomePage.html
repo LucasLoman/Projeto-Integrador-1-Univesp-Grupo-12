@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
+    <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
     <link rel="stylesheet" type="text/css" href="HomePageCSS.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
@@ -27,23 +28,63 @@
         </ul>
     </nav>
 
-    <main class="corpo_pagina">
-        <div class="caixa_1 img">
-            <img src="AutoIta_Banner_Contatos.png" alt="">
-        </div>
+    <script src="header.js" type="text/javascript" defer></script>
+    <script src="footer.js" type="text/javascript" defer></script>
+</head>
+<body>
+
+    <header-component></header-component>
+
+    <main class="">
+            <div class="container_1">
+            <h1><b>Sobre Nós</b></h1>
+            <div class="imagem_1">  <img src="deletar_foto_generica.jpg" alt=""></div>
+            <div class="texto_corpo1">
+                Somos uma empresa no ramo de venda de peças automotivas e serviços de mecânica,
+                A Autoita oferece peças da melhor qualidade, com uma ampla variedade de diferentes
+                marcas e modelos, com um dos melhores preços da região.
+                Com uma equipe especializada, você receberá um atendimento personalizado e 
+                orientações para encontrar a melhor solução para o seu veiculo.
+            </div>
+            </div>
+
+            <div class="caixa_distratora">
+                <img src="deletar_foto_generica.jpg" alt="">
+                <img src="deletar_foto_generica.jpg" alt="">
+                <img src="deletar_foto_generica.jpg" alt="">
+            </div>
+
+            <h2><b> Mais de 15 anos de experiência no mercado!</b></h2>
+            <div class="container_2">
+            <div class="imagem_2">  <img src="deletar_foto_generica.jpg" alt=""></div>
+            <div class="texto_corpo2">
+                Fundada em 2009, entitulada RN auto peças, vindo a mudar seu nome em 2019 para Autoita Peças e Acessórios.
+                Desde então, a empresa tem se destacado no fornecimento de peças automotivas de alta qualidade, em 2023 a Autoita
+                expandiu os seus serviços, oferencendo assim uma gama completa de soluções automotivas à seus clientes.
+            </div>
+            <div class="imagem_3">  <img src="deletar_foto_generica.jpg" alt=""></div>
+            </div>
+            
+            <h3>Trabalhe Conosco</h3>
+            <div class="texto_corpo3">
+                Junte-se à equipe da Autoita, somos uma empresa com ambiente colaborativo e em constante aprendizado visando melhor atender o cliente.
+                Temos compromisso com a excelência e a satisfação do clientes, valorizando cada interação, se você
+                é apaixonado por soluções automotivas de qualidade, envie seu currículo hoje e venha fazer parte da nossa equipe!
+
+                <!-- Versão antes da reescrita, não está errada, sinta-se livre pra usar se quiser 
+                    Junte-se à equipe da Autoita <br>
+                Ambiente colaborativo para servir nossos clientes. <br>
+                Oportunidades de aprendizado contínuo para oferecer o melhor atendimento. <br>
+                Compromisso com a excelência para garantir a satisfação do cliente. <br>
+                Valorização da experiência do cliente em cada interação. <br>
+                Se você é apaixonado por fornecer soluções automotivas de alta qualidade, envie seu currículo hoje e venha fazer parte da nossa equipe! <br>
+        -->
+            </div>
+            <a id="botao_form" href="Forms.html">Formulário</a>
     </main>
 
-    <footer class="footer_banner">
-        <div class="gradient2"></div>
-        <img src="AutoIta_Banner_Cortada.png" alt="Autoita-logo-footer">
-        <div class="texto_footer"><pre>
-Fale Conosco!
+    <footer-component></footer-component>
 
-(15)3531-2467
-
-(15)99679-7899
-
-autoitapecas@gmail.com</pre></div>
-    </footer>
+    <!-- NÚMERO ERRADO NO FOOTER, ARRUMAR MAIS TARDE, TAMBÉM ESQUECI O ENDEREÇO-->
 </body>
 </html>
