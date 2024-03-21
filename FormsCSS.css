@@ -1,0 +1,60 @@
+body {
+    height: 1300px;
+}
+
+.box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 5% 0px;
+}
+
+fieldset {
+    border: 5px solid rgba(0, 1, 2, 0.311);
+    border-radius: 5px;
+}
+
+legend {
+    border: 2px solid rgba(0, 1, 2, 0.411);
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(37, 45, 54, 0.311);
+    border-radius: 5px;
+    color: #32345c;
+    font-size: 30px;
+}
+
+.inputbox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 20px;
+    width: 85%;
+    letter-spacing: 1px;
+}
+
+#enviar {
+    background-image: linear-gradient(to right, rgb(2, 91, 255), #e85a4f);
+    width: 100%;
+    border: 5px black;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold
+}
+
+#enviar:hover {
+    background-image: linear-gradient(to right, #e43023, rgba(111, 0, 255, 0.795));
+}

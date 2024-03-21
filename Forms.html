@@ -5,12 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
+    <link rel="stylesheet" type="text/css" href="FormsCSS.css">
     <script src="header.js" type="text/javascript" defer></script>
     <script src="footer.js" type="text/javascript" defer></script>
 </head>
 <body>
 
     <header-component></header-component>
+
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro Concorrente à vaga</b></legend>
+                <br>
+                <p><b>Nome Completo:</b></p>
+                <div class="inputBox">
+                    <input type="text" name="nome_c" id="nome_c" class="inputUser" required>
+                </div>
+                <br>                    
+                <p><b>Data de Nascimento:</b></p>
+                <div class="inputBox">
+                    <input type="date" name="data_nasc" id="data_nasc" class="inputUser" required>
+                    <label for="data_nasc"></label>
+                </div>
+                <br>
+                <p><b>Sexo:</b></p>
+                    <input type="radio" name="Feminino" id="Feminino" value="Feminino">
+                    <label for="Feminino">Feminino</label>
+                    <br>
+                    <input type="radio" name="Masculino" id="Masculino" value="Masculino">
+                    <label for="Masculino">Masculino</label>
+                    <br>
+                    <input type="radio" name="Outro" id="Outro" value="Outro">
+                    <label for="Outro">Outro</label>
+                    <br>
+                    <p><b>Email:</b></p>
+                <div class="inputBox">
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                </div>
+                <br>
+                <p><b>Telefone:</b></p>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                </div>
+                <br>
+                <p><b>Endereço:</b></p>
+                <div class="inputBox">
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                </div>
+                <br>
+                <p><b>Objetivo</b></p>
+                <textarea name="objetivo" id="objetivo" cols="90" rows="2" class="caixat"></textarea>
+                <p><b>Formação Acadêmica/Cursos</b></p>
+                <textarea name="formação academica" id="formação academica" cols="90" rows="2" class="caixat"></textarea>
+                <br>
+                <p><b>Experiência profissional</b></p>
+                <textarea name="experiencia" id="experiencia" cols="90" rows="2" class="caixat"></textarea>
+                
+                <br><br><br>
+
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+
+        </fieldset>
+    </form>
+</div>
     
     <footer-component></footer-component>
 </body>
