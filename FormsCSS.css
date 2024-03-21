@@ -3,10 +3,8 @@ body {
 }
 
 .box {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    position:sticky;
+    left: 25%;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 15px;
     border-radius: 10px;
@@ -41,6 +39,11 @@ legend {
     font-size: 20px;
     width: 85%;
     letter-spacing: 1px;
+}
+
+.caixat {
+    width: 85%;
+    resize: none;
 }
 
 #enviar {
