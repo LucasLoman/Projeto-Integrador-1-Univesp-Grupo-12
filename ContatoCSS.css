@@ -1,0 +1,105 @@
+main{
+    display: flex;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae7dc;
+    margin: 0;
+    padding: 0;
+}
+.container1 {
+    /*max-width: 40%;*/
+    width: 600px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 5px;
+    align-items: start;
+}
+select{
+    width: 104%;
+}
+h2 {
+    text-align: start;
+    color: #333;
+}
+h6{
+  text-align: initial;
+  color: #666666;
+ 
+}
+label {
+    text-align: start;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:hover {
+    background-color: #d3d3d3;
+}
+input[type="email"]:hover {
+    background-color: #d3d3d3;
+}
+
+textarea {
+    resize: vertical;
+}
+input[type="button"] {
+    /*background-color: #007bff;/*
+    /*color: #fff;*/
+    background-color: #e85a4f;;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position:-ms-page;
+    width: 620px;
+}
+input[type="button"]:hover {
+    background-color: #e43023;
+}
+input[value="Enviar"]{
+    color: white;
+}
+/*Container do lado direito*/
+.container2 {
+    width: 40%;
+    margin-bottom: 9%;
+    margin-left: 9%;
+    margin-top: 9%;
+    text-align: start;
+    /*background-color: #ffffff;*/
+    border-radius: 5px;
+    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+.map-container {
+    text-align: end;
+    height: 60%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* Estilize os ícones */
+.fa-envelope{
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333333;
+}
+.fa-mobile {
+    color: #333333;
+}
+.fa-map-marker{
+    color: #333333;
+}
+/* Estilize o texto */
+span {
+    font-size: 16px;
+}

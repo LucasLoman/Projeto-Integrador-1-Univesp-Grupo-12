@@ -40,7 +40,6 @@ ul {
     float: left;
     border-right: 1px solid #f1f1f1;
     font-family: monospace;
-    font-size: 3vh;
   }
 
   li a {
@@ -53,6 +52,10 @@ ul {
 
   li a:hover {
     background-color: rgb(48, 46, 46);
+  }
+
+  li span {
+    font-size: 3vh;
   }
 
 /* SEÇÃO DO FOOTER ---------- */

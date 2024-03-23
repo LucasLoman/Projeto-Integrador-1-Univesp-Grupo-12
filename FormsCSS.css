@@ -5,11 +5,12 @@ body {
 .box {
     position:sticky;
     left: 25%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #F3E0DC;
     padding: 15px;
     border-radius: 10px;
     width: 50%;
     margin: 70px 0px;
+    color: black;
 }
 
 fieldset {
@@ -21,9 +22,9 @@ legend {
     border: 2px solid rgba(0, 1, 2, 0.411);
     padding: 10px;
     text-align: center;
-    background-color: rgba(37, 45, 54, 0.311);
+    background-color: rgba(122, 180, 241, 0.311);
     border-radius: 5px;
-    color: #32345c;
+    color: black;
     font-size: 30px;
 }
 
@@ -34,7 +35,7 @@ legend {
 .inputUser {
     background: none;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgba(0, 1, 2, 0.311);
     outline: none;
     font-size: 20px;
     width: 85%;
@@ -62,3 +63,10 @@ legend {
 #enviar:hover {
     background-image: linear-gradient(to right, #e43023, rgba(111, 0, 255, 0.795));
 }
+
+/* https://visme.co/blog/website-color-schemes/
+  Minimal e Warm: EAE7DC D8C3A5 8E8D8A E98074 E85A4F
+
+  Gorgeous Contrast 61892F 86C232 222629 474B4F 6B6E70
+
+  Rose Red 4285F4 5C2018 BC4639 D4A59A F3E0DC
