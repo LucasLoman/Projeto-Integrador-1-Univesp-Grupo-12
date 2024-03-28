@@ -12,10 +12,11 @@ class Footer extends HTMLElement {
 Fale Conosco!
 
 (15)3531-2467
-
 (15)99679-7899
 
-autoitapecas@gmail.com</pre></div>
+autoitapecas@gmail.com
+
+Rua Frei Caneca Nº2455, Centro, Itararé SP</pre></div>
     </footer>
     `;
     }

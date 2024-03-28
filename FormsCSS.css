@@ -1,8 +1,10 @@
+/*Caixa do Formulário*/
+
 .box {
     position:sticky;
     width: 50%;
-    color: black;
     text-align: left;
+    background-color: #179791;
 }
 
 fieldset {
@@ -11,16 +13,18 @@ fieldset {
 
 .legend {
     border: none;
-    color: black;
     font-size: 30px;
     text-align: left;
     margin: 81px 80px 20px 90px;
+    color: #000033;
 }
 
 p {
     margin: 0px 80px;
     font-size: 15px;
 }
+
+/*Campos de preenchimento*/
 
 input[type="text"],
 input[type="date"],
@@ -40,8 +44,10 @@ input[type="radio"] {
     margin: 10px 10px 10px 80px;
 }
 
+/*Botão de envio*/
+
 #enviar {
-    background-color:  #e85a4f;
+    background-color:  #C8E1DF;
     width: 50%;
     padding: 10px;
     color: black;
@@ -49,12 +55,16 @@ input[type="radio"] {
     cursor: pointer;
     font-weight: bold;
     margin: 0px 24%;
-    border-radius: 5px;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.3s ease;
 }
 
 #enviar:hover {
-    background-color: #e43023;
+    background-color: #82aca8;
 }
+
+/*Caixa a Direita, e seu flavor text*/
 
 .box2 {
     position: absolute;
@@ -64,15 +74,14 @@ input[type="radio"] {
 }
 
 .flavor_big {
-    color: black;
     font-weight: bold;
     font-size: 35px;
-    text-align: right;
+    text-align: center;
     margin: 70px 80px 30px 85px;
+    color: #660033;
 }
 
 .flavor_forms {
-    color: black;
     font-size: 15px;
     text-align: center;
     margin: 0px 80px;

@@ -12,7 +12,7 @@ class Header extends HTMLElement {
         <nav>
         <ul class="menu">
             <div class="container img">
-               <a href="HomePage.html"> <img src="logo_autoita-semfundo.png" alt="Logo_Autoita"> </a>
+               <a href="HomePage.html"> <img src="logo_autoita-cortada.png" alt="Logo_Autoita"> </a>
             </div>
             <li><a href="HomePage.html"><b><span class="fa fa-home"></span>
             <span>Página Inicial</span></b></a></li>
