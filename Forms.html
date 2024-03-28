@@ -16,59 +16,67 @@
     <div class="box">
         <form action="">
             <fieldset>
-                <legend><b>Cadastro Concorrente à vaga</b></legend>
-                <br>
-                <p><b>Nome Completo:</b></p>
-                <div class="inputBox">
+                <div class="legend"><b>Cadastro Concorrente à Vaga</b></div>
+                
+                <p><b>Nome Completo</b></p>
+              
                     <input type="text" name="nome_c" id="nome_c" class="inputUser" required>
-                </div>
-                <br>                    
-                <p><b>Data de Nascimento:</b></p>
-                <div class="inputBox">
+                                  
+                <p><b>Data de Nascimento</b></p>
+
                     <input type="date" name="data_nasc" id="data_nasc" class="inputUser" required>
                     <label for="data_nasc"></label>
-                </div>
-                <br>
-                <p><b>Sexo:</b></p>
+                
+                <p><b>Sexo</b></p>
                     <input type="radio" name="Feminino" id="Feminino" value="Feminino">
                     <label for="Feminino">Feminino</label>
-                    <br>
+                    
                     <input type="radio" name="Masculino" id="Masculino" value="Masculino">
                     <label for="Masculino">Masculino</label>
-                    <br>
+                    
                     <input type="radio" name="Outro" id="Outro" value="Outro">
                     <label for="Outro">Outro</label>
-                    <br>
-                    <p><b>Email:</b></p>
-                <div class="inputBox">
-                    <input type="email" name="email" id="email" class="inputUser" required>
-                </div>
-                <br>
-                <p><b>Telefone:</b></p>
-                <div class="inputBox">
-                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
-                </div>
-                <br>
-                <p><b>Endereço:</b></p>
-                <div class="inputBox">
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
-                </div>
-                <br>
-                <p><b>Objetivo</b></p>
-                <textarea input maxlength="365" name="objetivo" id="objetivo" cols="90" rows="2" class="caixat"></textarea>
-                <p><b>Formação Acadêmica/Cursos</b></p>
-                <textarea input maxlength="365" name="formação academica" id="formação academica" cols="90" rows="2" class="caixat"></textarea>
-                <br>
-                <p><b>Experiência profissional</b></p>
-                <textarea input maxlength="365" name="experiencia" id="experiencia" cols="90" rows="2" class="caixat"></textarea>
+
+                <p><b>Email</b></p>
+                <input type="email" name="email" id="email" class="inputUser" required>
                 
-                <br><br><br>
+                <p><b>Telefone</b></p>
+                    <input type="text" name="telefone" id="telefone" class="inputUser" required>
+                
+                <p><b>Endereço</b></p>
+                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                
+                <p><b>Objetivo</b></p>
+                <textarea type="text" name="objetivo" id="objetivo" cols="90" rows="5" class="inputUser"></textarea>
+
+                <p><b>Formação Acadêmica/Cursos</b></p>
+                <textarea type="text" name="formação" id="formação" cols="90" rows="5" class="inputUser"></textarea>
+                
+                <p><b>Experiência profissional</b></p>
+                <textarea type="text" name="experiencia" id="experiencia" cols="90" rows="5" class="inputUser"></textarea>
+                
+                <br><br>
 
             <input type="submit" name="enviar" id="enviar" value="Enviar">
 
         </fieldset>
     </form>
 </div>
+
+    <div class="box2">
+        <div class="flavor_big">
+            Nossos Valores
+        </div>
+        <div class="flavor_forms"> 
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."
+         <br>   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."
+         <br>   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
+
+        <div class="flavor_logo">
+            <img src="logo_autoita-semfundo.png" alt="Logo_Autoita">
+         </div>
+        </div>
+    </div>
     
     <footer-component></footer-component>
 </body>

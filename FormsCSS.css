@@ -1,67 +1,85 @@
-body {
-    height: 1300px;
-}
-
 .box {
     position:sticky;
-    left: 25%;
-    background-color: #F3E0DC;
-    padding: 15px;
-    border-radius: 10px;
     width: 50%;
-    margin: 70px 0px;
     color: black;
+    text-align: left;
 }
 
 fieldset {
-    border: 5px solid rgba(0, 1, 2, 0.311);
-    border-radius: 5px;
+    border: none;
 }
 
-legend {
-    border: 2px solid rgba(0, 1, 2, 0.411);
-    padding: 10px;
-    text-align: center;
-    background-color: rgba(122, 180, 241, 0.311);
-    border-radius: 5px;
+.legend {
+    border: none;
     color: black;
     font-size: 30px;
+    text-align: left;
+    margin: 81px 80px 20px 90px;
 }
 
-.inputbox {
-    position: relative;
+p {
+    margin: 0px 80px;
+    font-size: 15px;
 }
 
-.inputUser {
-    background: none;
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 70%;
+    padding: 10px;
     border: none;
-    border-bottom: 2px solid rgba(0, 1, 2, 0.311);
-    outline: none;
+    border-radius: 5px;
+    margin: 10px 80px;
+    resize: vertical;
     font-size: 20px;
-    width: 85%;
-    letter-spacing: 1px;
+    outline: none;
 }
 
-.caixat {
-    width: 85%;
-    resize: none;
-    height: 75px;
+input[type="radio"] {
+    margin: 10px 10px 10px 80px;
 }
 
 #enviar {
-    background-image: linear-gradient(to right, rgb(2, 91, 255), #e85a4f);
-    width: 100%;
-    border: 5px black;
-    padding: 20px;
+    background-color:  #e85a4f;
+    width: 50%;
+    padding: 10px;
     color: black;
     font-size: 30px;
     cursor: pointer;
-    border-radius: 10px;
-    font-weight: bold
+    font-weight: bold;
+    margin: 0px 24%;
+    border-radius: 5px;
 }
 
 #enviar:hover {
-    background-image: linear-gradient(to right, #e43023, rgba(111, 0, 255, 0.795));
+    background-color: #e43023;
+}
+
+.box2 {
+    position: absolute;
+    width: 50%;
+    right: 0px;
+    top: 61px;
+}
+
+.flavor_big {
+    color: black;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: right;
+    margin: 70px 80px 30px 85px;
+}
+
+.flavor_forms {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 80px;
+}
+
+.flavor_logo {
+    margin-top: 50px;
 }
 
 /* https://visme.co/blog/website-color-schemes/

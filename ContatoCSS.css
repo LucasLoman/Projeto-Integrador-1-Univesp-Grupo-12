@@ -1,12 +1,7 @@
 main{
     display: flex;
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #eae7dc;
-    margin: 0;
-    padding: 0;
-}
+
 .container1 {
     /*max-width: 40%;*/
     width: 600px;
@@ -33,6 +28,7 @@ label {
     margin-bottom: 10px;
     font-weight: bold;
 }
+
 input[type="text"],
 input[type="email"],
 textarea{
