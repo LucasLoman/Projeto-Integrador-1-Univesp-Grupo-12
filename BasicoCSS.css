@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #eae7dc;
-    color: #8e8d8a;
+    background-color: #F8F7F4;
+    color: #333333;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 2.8vh;
     line-height: 1.5;
@@ -17,8 +17,9 @@ ul {
     padding: 0px;
     border: none;
     overflow: hidden;
-    background: #8e8d8a;
-    position: relative;
+    background: #282828;
+    position: fixed;
+    z-index: 10;
     top: 0px;
     left: 0px;
     width: 100%;
@@ -30,17 +31,17 @@ ul {
     max-height:61px;
     width: auto;
     height: auto;
+    transition: background-color 0.3s ease;
   }
 
   .container :hover {
-    background-color: rgb(48, 46, 46);
+    background-color: rgb(27, 25, 25);
   }
 
   li {
     float: left;
     border-right: 1px solid #f1f1f1;
     font-family: monospace;
-    font-size: 3vh;
   }
 
   li a {
@@ -49,10 +50,15 @@ ul {
     text-align: center;
     padding: 16px 18px;
     text-decoration: none;
+    transition: background-color 0.3s ease;
   }
 
   li a:hover {
-    background-color: rgb(48, 46, 46);
+    background-color: rgb(27, 25, 25);
+  }
+
+  li span {
+    font-size: 3vh;
   }
 
 /* SEÇÃO DO FOOTER ---------- */
@@ -83,11 +89,11 @@ ul {
 
   .texto_footer {
     position: absolute;
-    top: 50%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-    color: #eae7dc;
-    font-size: 17px;
+    top: 1%;
+    left: 5%;
+    color: #F8F7F4;
+    font-size: 16px;
+    font-weight: bold;
   }
 
   /* https://visme.co/blog/website-color-schemes/
