@@ -60,7 +60,7 @@ input[type="button"] {
     border-radius: 5px;
     cursor: pointer;
     position:-ms-page;
-    width: 620px;
+    width: 100px;
 }
 input[type="button"]:hover {
     background-color: #007bff;
@@ -91,11 +91,19 @@ input[value="Enviar"]{
     margin-right: 10px;
     color: #333333;
 }
-.fa-phone{
-    color: #333333;
+.logo-telefone{
+    
 }
+/*.fa-phone1{
+    color: #333333;
+}*/
+
 .fa-map-marker{
     color: #333333;
+}
+h4{
+    color:#333333;
+    text-align: center;
 }
 /* Estilize o texto */
 span {
