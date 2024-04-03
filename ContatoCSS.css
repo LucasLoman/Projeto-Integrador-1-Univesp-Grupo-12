@@ -61,12 +61,8 @@ input[type="button"] {
     border-radius: 5px;
     cursor: pointer;
     position:-ms-page;
-<<<<<<< HEAD
-    width: 100px;
-=======
     width: 620px;
     transition: background-color 0.3s ease;
->>>>>>> 8939827cac9a7a640059e0a30d526a7f65c51b24
 }
 
 input[type="button"]:hover {
@@ -106,24 +102,7 @@ input[value="Enviar"]{
     margin-right: 10px;
     color: #333333;
 }
-<<<<<<< HEAD
-.logo-telefone{
-    
-}
-/*.fa-phone1{
-    color: #333333;
-}*/
 
-.fa-map-marker{
-    color: #333333;
-}
-h4{
-    color:#333333;
-    text-align: center;
-}
-=======
-
->>>>>>> 8939827cac9a7a640059e0a30d526a7f65c51b24
 /* Estilize o texto */
 
 .span {
