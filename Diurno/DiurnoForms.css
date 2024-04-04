@@ -1,0 +1,12 @@
+.box {
+    background-color: #179791;
+}
+
+#enviar {
+    background-color:  #C8E1DF;
+    color: black;
+}
+
+#enviar:hover {
+    background-color: #82aca8;
+}
