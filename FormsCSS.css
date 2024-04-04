@@ -4,7 +4,7 @@
     position:sticky;
     width: 50%;
     text-align: left;
-    background-color: #179791;
+    background-color: #D8C3A5;
 }
 
 fieldset {
@@ -47,7 +47,7 @@ input[type="radio"] {
 /*Botão de envio*/
 
 #enviar {
-    background-color:  #C8E1DF;
+    background-color:  #e85a4f;
     width: 50%;
     padding: 10px;
     color: black;
@@ -61,7 +61,7 @@ input[type="radio"] {
 }
 
 #enviar:hover {
-    background-color: #82aca8;
+    background-color: #e43023;
 }
 
 /*Caixa a Direita, e seu flavor text*/

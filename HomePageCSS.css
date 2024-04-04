@@ -13,7 +13,7 @@
     }
 
     h1 {
-      left: 835px;
+      left: 805px;
       bottom: 130px;
     }
 
@@ -99,9 +99,9 @@
     }
 
     .caixa_distratora img {
-      width: auto;
-      height: auto;
-      margin: 0% 45px;
+      width: 30%;
+      height: 90%;
+      margin: 10px 45px 0% 45px;
       border-radius: 10px;
     }
 
