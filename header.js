@@ -20,7 +20,6 @@ class Header extends HTMLElement {
             <span>Trabalhe Conosco</span></b></a></li>
             <li><a href="Contato.html"><b><span class="fa fa-phone"></span>
             <span>Contato</span></b></a></li>
-            <a id="muda_tema" href=""><spawn class="fa fa-moon"></a>
         </ul>
     </nav>
     `;

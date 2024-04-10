@@ -1,0 +1,61 @@
+/*GERAL (Essa parte tem que ser igual em todos os arquivos de modo Escuro*/
+
+body {
+    background-color: #121212;
+    color: #F8F7F4;
+}
+
+h1, h2, h3 {
+    color: #cd1818;
+}
+
+ul {
+    background: #F8F7F4;
+}
+
+.container :hover {
+    background-color: #282622;
+}
+
+li a {
+    color: #282828;
+}
+
+li a:hover {
+    background-color: #282622;
+    color: #F8F7F4;
+}
+
+.muda_tema {
+    border-color: #121212;
+    color: #121212;
+}
+
+/* LOCALIZADO */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #FBFFF4;
+    border: #ccc;
+}
+
+input[type="text"]:hover, input[type="email"]:hover {
+    background-color: #d3d3d3;
+}
+
+input[type="button"] {
+    background-color: #F8F7F4;
+    color: #282828;
+}
+
+input[type="button"]:hover {
+    background-color: #e43023;
+    color: #F8F7F4;
+}
+
+.fa-mobile,
+.fa-map-marker,
+.fa-envelope {
+    color: #F8F7F4;
+}

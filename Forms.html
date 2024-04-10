@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <link rel="stylesheet" type="text/css" href="UniversalCSS\BasicoCSS.css">
+    <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
     <link rel="stylesheet" type="text/css" href="FormsCSS.css">
-    <link rel="stylesheet" type="text/css" href="UniversalCSS\Diurno.css" id="temas">
-    <link rel="stylesheet" type="text/css" href="Diurno\DiurnoForms.css" id="temas">
+    <link rel="stylesheet" type="text/css" href="Modos/Claro/ClaroForms.css" id="temas">
     <script src="header.js" type="text/javascript" defer></script>
     <script src="footer.js" type="text/javascript" defer></script>
 </head>
 <body>
 
-    <header-component></header-component>
+<header-component></header-component>
+
+<!-- Modo Escuro/claro -->
+
+    <button class="muda_tema">Mudar Tema</button>
+
+    <script>
+    const botao = document.querySelector(".muda_tema");
+    const tema = document.querySelector("#temas");
+    botao.addEventListener("click", function() {
+        if (tema.getAttribute("href") == "Modos/Claro/ClaroForms.css") {
+            tema.href = "Modos/Escuro/EscuroForms.css";
+        } else {
+            tema.href = "Modos/Claro/ClaroForms.css";
+        }
+    });
+    </script>
 
     <div class="box">
         <form action="">

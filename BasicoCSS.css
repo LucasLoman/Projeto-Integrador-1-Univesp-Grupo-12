@@ -7,10 +7,6 @@ body {
     text-align: center;
   }
 
-h1, h2, h3 {
-  color: #660033;
-}
-
 /*SEÇÃO DA GUIA NO TOPO DA PÁGINA ---------- */
 
 ul {
@@ -37,7 +33,6 @@ ul {
 
   li {
     float: left;
-    border-right: 1px solid ;
     font-family: monospace;
   }
 
@@ -51,6 +46,18 @@ ul {
 
   li span {
     font-size: 3vh;
+  }
+
+  .muda_tema {
+    position: fixed;
+    font-size: 10px;
+    left: 1250px;
+    top: 20px;
+    border-radius: 7px;
+    background-color: transparent;
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+    z-index: 11;
   }
 
 /* SEÇÃO DO FOOTER ---------- */
