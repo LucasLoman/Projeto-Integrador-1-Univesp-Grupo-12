@@ -1,0 +1,58 @@
+/*GERAL (Essa parte tem que ser igual em todos os arquivos de modo Claro*/
+
+body {
+    background-color: #F8F7F4;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    color: #660033;
+}
+
+ul {
+    background: #282828;
+}
+
+.container :hover {
+    background-color: #F8F7F4;
+}
+
+li a {
+    color: #eae7dc;
+}
+
+li a:hover {
+    background-color: #F8F7F4;
+    color: #282828;
+}
+
+/* LOCALIZADO */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #FBFFF4;
+    border-color: #101720;
+}
+
+input[type="text"]:hover, input[type="email"]:hover {
+    background-color: #d3d3d3;
+}
+
+input[type="button"] {
+    background-color: #e85a4f;
+}
+
+input[type="button"]:hover {
+    background-color: #e43023;
+}
+
+input[value="Enviar"]{
+    color: white;
+}
+
+.fa-mobile,
+.fa-map-marker,
+.fa-envelope {
+    color: #333333;
+}

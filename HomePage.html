@@ -6,13 +6,30 @@
     <title>Pagina Inicial</title>
     <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
     <link rel="stylesheet" type="text/css" href="HomePageCSS.css">
+    <link rel="stylesheet" type="text/css" href="Modos/Claro/ClaroHome.css" id="temas">
     <script src="header.js" type="text/javascript" defer></script>
     <script src="footer.js" type="text/javascript" defer></script>
     
 </head>
 <body>
 
-    <header-component></header-component>
+<header-component></header-component>
+
+<!-- Modo Escuro/claro -->
+
+    <button class="muda_tema">Mudar Tema</button>
+
+    <script>
+    const botao = document.querySelector(".muda_tema");
+    const tema = document.querySelector("#temas");
+    botao.addEventListener("click", function() {
+        if (tema.getAttribute("href") == "Modos/Claro/ClaroHome.css") {
+            tema.href = "Modos/Escuro/EscuroHome.css";
+        } else {
+            tema.href = "Modos/Claro/ClaroHome.css";
+        }
+    });
+    </script>
 
     <main class="">
             <div class="container_1">

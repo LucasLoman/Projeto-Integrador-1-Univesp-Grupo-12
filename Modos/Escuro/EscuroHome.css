@@ -1,0 +1,48 @@
+/*GERAL (Essa parte tem que ser igual em todos os arquivos de modo Escuro*/
+
+body {
+    background-color: #121212;
+    color: #F8F7F4;
+}
+
+h1, h2, h3 {
+    color: #cd1818;
+}
+
+ul {
+    background: #F8F7F4;
+}
+
+.container :hover {
+    background-color: #282622;
+}
+
+li a {
+    color: #282828;
+}
+
+li a:hover {
+    background-color: #282622;
+    color: #F8F7F4;
+}
+
+.muda_tema {
+    border-color: #121212;
+    color: #121212;
+}
+
+/* LOCALIZADO */
+
+.caixa_distratora {
+    background-color: #282828;
+}
+
+#botao_form {
+    background-color: #F8F7F4;
+    color: #282828;
+}
+
+#botao_form:hover{
+    background-color: #e43023;
+    color: #F8F7F4;
+}

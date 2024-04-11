@@ -6,14 +6,30 @@
     <title>Contato</title>
     <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
     <link rel="stylesheet" type="text/css" href="ContatoCSS.css">
+    <link rel="stylesheet" type="text/css" href="Modos/Claro/ClaroContatos.css" id="temas">
     <script src="header.js" type="text/javascript" defer></script>
     <script src="footer.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
-
 <body>
 
-    <header-component></header-component>
+<header-component></header-component>
+
+<!-- Modo Escuro/claro -->
+
+    <button class="muda_tema">Mudar Tema</button>
+
+    <script>
+    const botao = document.querySelector(".muda_tema");
+    const tema = document.querySelector("#temas");
+    botao.addEventListener("click", function() {
+        if (tema.getAttribute("href") == "Modos/Claro/ClaroContatos.css") {
+            tema.href = "Modos/Escuro/EscuroContatos.css";
+        } else {
+            tema.href = "Modos/Claro/ClaroContatos.css";
+        }
+    });
+    </script>
 
     <main>
         <!--Container 1-->

@@ -1,0 +1,43 @@
+/*GERAL (Essa parte tem que ser igual em todos os arquivos de modo Claro*/
+
+body {
+    background-color: #F8F7F4;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    color: #660033;
+}
+
+ul {
+    background: #282828;
+}
+
+.container :hover {
+    background-color: #F8F7F4;
+}
+
+li a {
+    color: #eae7dc;
+}
+
+li a:hover {
+    background-color: #F8F7F4;
+    color: #282828;
+}
+
+/* LOCALIZADO */
+
+.box {
+    background-color: #D8C3A5;
+}
+
+#enviar {
+    background-color:  #FFF5EA;
+    color: black;
+}
+
+#enviar:hover {
+    background-color: #e43023;
+    color: #F8F7F4;
+}

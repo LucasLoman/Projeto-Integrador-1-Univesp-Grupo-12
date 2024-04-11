@@ -6,17 +6,34 @@
     <title>Formulário</title>
     <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
     <link rel="stylesheet" type="text/css" href="FormsCSS.css">
+    <link rel="stylesheet" type="text/css" href="Modos/Claro/ClaroForms.css" id="temas">
     <script src="header.js" type="text/javascript" defer></script>
     <script src="footer.js" type="text/javascript" defer></script>
 </head>
 <body>
 
-    <header-component></header-component>
+<header-component></header-component>
+
+<!-- Modo Escuro/claro -->
+
+    <button class="muda_tema">Mudar Tema</button>
+
+    <script>
+    const botao = document.querySelector(".muda_tema");
+    const tema = document.querySelector("#temas");
+    botao.addEventListener("click", function() {
+        if (tema.getAttribute("href") == "Modos/Claro/ClaroForms.css") {
+            tema.href = "Modos/Escuro/EscuroForms.css";
+        } else {
+            tema.href = "Modos/Claro/ClaroForms.css";
+        }
+    });
+    </script>
 
     <div class="box">
         <form action="">
             <fieldset>
-                <div class="legend"><b>Cadastro Concorrente à Vaga</b></div>
+                <h1><b>Cadastro Concorrente à Vaga</b></h1>
                 
                 <p><b>Nome Completo</b></p>
               
@@ -64,9 +81,7 @@
 </div>
 
     <div class="box2">
-        <div class="flavor_big">
-            Nossos Valores
-        </div>
+        <h1> Nossos Valores </h1>
         <div class="flavor_forms"> 
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."
          <br>   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing."

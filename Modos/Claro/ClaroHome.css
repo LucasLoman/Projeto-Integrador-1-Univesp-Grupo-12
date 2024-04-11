@@ -1,0 +1,42 @@
+/*GERAL (Essa parte tem que ser igual em todos os arquivos de modo Claro*/
+
+body {
+    background-color: #F8F7F4;
+    color: #333333;
+}
+
+h1, h2, h3 {
+    color: #660033;
+}
+
+ul {
+    background: #282828;
+}
+
+.container :hover {
+    background-color: #F8F7F4;
+}
+
+li a {
+    color: #eae7dc;
+}
+
+li a:hover {
+    background-color: #F8F7F4;
+    color: #282828;
+}
+
+/* LOCALIZADO */
+
+.caixa_distratora {
+    background-color: #D8C3A5;
+}
+
+#botao_form {
+    background-color: #e85a4f;
+    color: #EAE7DC;
+}
+
+#botao_form:hover{
+    background-color: #e43023;
+}
