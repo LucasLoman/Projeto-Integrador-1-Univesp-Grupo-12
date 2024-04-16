@@ -7,7 +7,6 @@ main{
 /*Container 1 e seu título*/
 
 .container1 {
-    /*max-width: 40%;*/
     width: 600px;
     margin-bottom: 5%;
     margin-left: 5%;
@@ -22,7 +21,6 @@ select{
 
 h2 {
     text-align: start;
-    color: #660033;
 }
 
 h6{
@@ -33,17 +31,13 @@ h6{
 
 input[type="text"],
 input[type="email"],
-textarea{
+textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid;
     border-radius: 5px;
     margin-bottom: 20px;
     transition: background-color 0.3s ease;
-}
-
-input[type="text"]:hover, input[type="email"]:hover {
-    background-color: #d3d3d3;
 }
 
 textarea {
@@ -53,9 +47,6 @@ textarea {
 /*Botão de envio*/
 
 input[type="button"] {
-    /*background-color: #007bff;/*
-    /*color: #fff;*/
-    background-color: #e85a4f;;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -63,14 +54,6 @@ input[type="button"] {
     position:-ms-page;
     width: 620px;
     transition: background-color 0.3s ease;
-}
-
-input[type="button"]:hover {
-    background-color: #e43023;
-}
-
-input[value="Enviar"]{
-    color: white;
 }
 
 /*Container do lado direito*/
@@ -81,9 +64,7 @@ input[value="Enviar"]{
     margin-left: 9%;
     margin-top: 9%;
     text-align: start;
-    /*background-color: #ffffff;*/
     border-radius: 5px;
-    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
 }
 
 .map-container {
@@ -97,10 +78,9 @@ input[value="Enviar"]{
 
 .fa-mobile,
 .fa-map-marker,
-.fa-envelope{
+.fa-envelope {
     font-size: 24px;
     margin-right: 10px;
-    color: #333333;
 }
 
 /* Estilize o texto */
