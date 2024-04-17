@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.8vh;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+/*SEÇÃO DA GUIA NO TOPO DA PÁGINA ---------- */
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+
+  .container img{
+    float: left;
+    max-width:500px;
+    max-height:64px;
+    width: auto;
+    height: auto;
+    transition: background-color 0.3s ease;
+  }
+
+  li {
+    float: left;
+    font-family: monospace;
+  }
+
+  li a {
+    display: block;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  li span {
+    font-size: 3vh;
+  }
+
+  .muda_tema {
+    position: fixed;
+    font-size: 10px;
+    left: 1410px;
+    top: 25px;
+    border-radius: 7px;
+    background-color: transparent;
+    border-color: #f1f1f1;
+    color: #f1f1f1;
+    z-index: 11;
+  }
+
+/* SEÇÃO DO FOOTER ---------- */
+
+.footer_banner {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    right: auto;
+    z-index: 2;
+  }
+
+  .gradient2 {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(90deg, black, transparent);
+    position: absolute;
+  }
+
+  .footer_banner img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+  }
+
+  .texto_footer {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    color: #F8F7F4;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+/*
+  Minimal e Warm: EAE7DC D8C3A5 8E8D8A E98074 E85A4F
+
+  Gorgeous Contrast 61892F 86C232 222629 474B4F 6B6E70
+
+  Rose Red 4285F4 5C2018 BC4639 D4A59A F3E0DC */

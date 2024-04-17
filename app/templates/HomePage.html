@@ -1,0 +1,66 @@
+{% extends 'Universal.html' %}
+<!-- flask --app Projeto_Integrador.py run --debug  / PARA RODAR SEM BUGAR SE O FLASK_APP ESTA SETADO ERRADO -->
+{% block conteudo %}
+    
+    <title>Pagina Inicial</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='HomePageCSS.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='Modos/Claro/ClaroHome.css')}}" id="temas">
+
+<!-- Modo Escuro/claro -->
+
+    <button class="muda_tema">Mudar Tema</button>
+
+    <script>
+    const botao = document.querySelector(".muda_tema");
+    const tema = document.querySelector("#temas");
+    botao.addEventListener("click", function() {
+        if (tema.getAttribute("href") == "{{ url_for ('static', filename='Modos/Claro/ClaroHome.css')}}") {
+            tema.href = "{{ url_for ('static', filename='Modos/Escuro/EscuroHome.css')}}";
+        } else {
+            tema.href = "{{ url_for ('static', filename='Modos/Claro/ClaroHome.css')}}";
+        }
+    });
+    </script>
+
+    <main class="">
+            <div class="container_1">
+            <h1><b>Sobre Nós</b></h1>
+            <div class="imagem_1">  <img src="{{ url_for ('static', filename='Imagens/Void.png')}}" alt=""></div>
+            <div class="texto_corpo1">
+                Somos uma empresa no ramo de venda de peças automotivas e serviços de mecânica,
+                A Autoita oferece peças da melhor qualidade, com uma ampla variedade de diferentes
+                marcas e modelos, com um dos melhores preços da região.
+                Com uma equipe especializada, você receberá um atendimento personalizado e 
+                orientações para encontrar a melhor solução para o seu veiculo.
+            </div>
+            </div>
+
+            <div class="caixa_distratora">
+                <img src="{{ url_for ('static', filename='Imagens/Void.png')}}" alt="">
+                <img src="{{ url_for ('static', filename='Imagens/Void.png')}}" alt="">
+                <img src="{{ url_for ('static', filename='Imagens/Void.png')}}" alt="">
+            </div>
+
+            <h2><b> Mais de 15 anos de experiência no mercado!</b></h2>
+            <div class="container_2">
+            <div class="imagem_2">  <img src="{{ url_for ('static', filename='Imagens/Void.png')}}" alt=""></div>
+            <div class="texto_corpo2">
+                Fundada em 2009, entitulada RN auto peças, vindo a mudar seu nome em 2019 para Autoita Peças e Acessórios.
+                Desde então, a empresa tem se destacado no fornecimento de peças automotivas de alta qualidade, em 2023 a Autoita
+                expandiu os seus serviços, oferencendo assim uma gama completa de soluções automotivas à seus clientes.
+            </div>
+            <div class="imagem_3">  <img src="{{ url_for ('static', filename='Imagens/Void.png')}}" alt=""></div>
+            </div>
+            
+            <h3>Trabalhe Conosco</h3>
+            <div class="texto_corpo3">
+                Junte-se à equipe da Autoita, somos uma empresa com ambiente colaborativo e em constante aprendizado visando melhor atender o cliente.
+                Temos compromisso com a excelência e a satisfação do clientes, valorizando cada interação, se você
+                é apaixonado por soluções automotivas de qualidade, envie seu currículo hoje e venha fazer parte da nossa equipe!
+
+            </div>
+            <a id="botao_form" href="/Forms">Formulário</a>
+    </main>
+
+{% endblock %}

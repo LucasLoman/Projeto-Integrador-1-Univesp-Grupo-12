@@ -1,0 +1,2 @@
+FLASK_APP=Projeto_Integrador.py
+FLASK_ENV=development
