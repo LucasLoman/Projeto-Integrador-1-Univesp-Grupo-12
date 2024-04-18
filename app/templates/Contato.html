@@ -1,19 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" type="text/css" href="BasicoCSS.css">
-    <link rel="stylesheet" type="text/css" href="ContatoCSS.css">
-    <link rel="stylesheet" type="text/css" href="Modos/Claro/ClaroContatos.css" id="temas">
-    <script src="header.js" type="text/javascript" defer></script>
-    <script src="footer.js" type="text/javascript" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
+{% extends 'Universal.html' %}
 
-<header-component></header-component>
+{% block conteudo %}
+    
+    <title>Contato</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='ContatoCSS.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='Modos/Claro/ClaroContato.css')}}" id="temas">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <!-- Modo Escuro/claro -->
 
@@ -23,10 +16,10 @@
     const botao = document.querySelector(".muda_tema");
     const tema = document.querySelector("#temas");
     botao.addEventListener("click", function() {
-        if (tema.getAttribute("href") == "Modos/Claro/ClaroContatos.css") {
-            tema.href = "Modos/Escuro/EscuroContatos.css";
+        if (tema.getAttribute("href") == "{{ url_for ('static', filename='Modos/Claro/ClaroContato.css')}}") {
+            tema.href = "{{ url_for ('static', filename='Modos/Escuro/EscuroContato.css')}}";
         } else {
-            tema.href = "Modos/Claro/ClaroContatos.css";
+            tema.href = "{{ url_for ('static', filename='Modos/Claro/ClaroContato.css')}}";
         }
     });
     </script>
@@ -74,10 +67,6 @@
                 </iframe>
             </div>
         </div>
-
     </main>
-    
-    <footer-component></footer-component>
-    
-</body>
-</html>
+
+{% endblock %}

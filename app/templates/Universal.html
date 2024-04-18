@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <link rel="stylesheet" type="text/css" href="{{ url_for ('static', filename='BasicoCSS.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+        <nav>
+        <ul class="menu">
+            <div class="container img">
+               <a href="/HomePage"> <img src="{{ url_for ('static', filename='Imagens/logo_autoita-cortada.png')}}" alt="Logo_Autoita"> </a>
+            </div>
+            <li><a href="/HomePage"><b><span class="fa fa-home"></span>
+            <span>Página Inicial</span></b></a></li>
+            <li><a href="/Forms"><b><span class="fa fa-search"></span>
+            <span>Trabalhe Conosco</span></b></a></li>
+            <li><a href="/Contato"><b><span class="fa fa-phone"></span>
+            <span>Contato</span></b></a></li>
+        </ul>
+    </nav>
+    
+    {% block conteudo %}
+    {% endblock %}
+
+    <footer class="footer_banner">
+      <div class="gradient2"></div>
+      <img src="{{ url_for ('static', filename='Imagens/Autoita_Banner_Cortada.png')}}" alt="Autoita-logo-footer">
+      <div class="texto_footer"><pre>
+Fale Conosco!
+
+(15)3531-2467
+(15)99690-7899
+
+autoitapecas@gmail.com
+
+Rua Frei Caneca Nº2455, Centro, Itararé SP</pre></div>
+  </footer>
+    </body>
+  </html>

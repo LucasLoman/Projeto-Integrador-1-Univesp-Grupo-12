@@ -2,7 +2,7 @@
 
     main {
       margin-top: 101px;
-      height: 1500px;
+      height: 1400px;
     }
 
 /*CONFIGURAÇÕES DE TEXTO ---------- */
@@ -13,7 +13,7 @@
     }
 
     h1 {
-      left: 805px;
+      left: 835px;
       bottom: 130px;
     }
 
@@ -105,15 +105,12 @@
 #botao_form {
   border: none;
   padding: 15px 62px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
   border-radius: 12px;
   transition: background-color 0.3s ease;
   position: relative;
-  overflow: hidden;
   font-weight: bold;
 }

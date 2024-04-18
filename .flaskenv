@@ -1,2 +1,2 @@
-FLASK_APP=SiteFlask.py
+FLASK_APP=Projeto_Integrador.py
 FLASK_ENV=development

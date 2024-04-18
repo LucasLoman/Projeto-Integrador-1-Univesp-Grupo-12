@@ -1,0 +1,81 @@
+/*Caixa do Formulário*/
+
+.box {
+    position:sticky;
+    width: 50%;
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 84px 80px 20px 140px;
+}
+
+p {
+    margin: 0px 80px;
+    font-size: 15px;
+}
+
+/*Campos de preenchimento*/
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 80px;
+    resize: none;
+    font-size: 20px;
+    outline: none;
+}
+
+input[type="radio"] {
+    margin: 10px 10px 10px 80px;
+}
+
+/*Botão de envio*/
+
+#enviar {
+    width: 50%;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 24%;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/*Caixa a Direita, e seu flavor text*/
+
+.box2 {
+    position: absolute;
+    width: 50%;
+    right: 0px;
+    top: 61px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin: 70px 80px 30px 85px;
+}
+
+.flavor_forms {
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 80px;
+}
+
+.flavor_logo {
+    margin-top: 50px;
+}
