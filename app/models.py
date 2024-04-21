@@ -8,6 +8,8 @@ class Candidato(db.Model):
                                                          unique=True)
     email: sqlorm.Mapped[str] = sqlorm.mapped_column(sqlal.String(120), index=True,
                                                      unique=True)
+    contato: sqlorm.Mapped[int] = sqlorm.mapped_column(sqlal.Integer(), index=False,
+                                                       unique=True)
     
     # preencher com mais colunas, atributos, campos...
 
