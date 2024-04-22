@@ -1,5 +1,6 @@
 import os
 
+
 class Config:
     # ...placeholder para outras configurações
     # CONFIG_1 =
