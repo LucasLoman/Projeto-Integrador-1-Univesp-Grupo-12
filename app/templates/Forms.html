@@ -24,7 +24,7 @@
     </script>
 
     <div class="box">
-        <form action="">
+        <form action="/Forms" method="POST">
             <fieldset>
                 <h1><b>Cadastro Concorrente à Vaga</b></h1>
                 
@@ -37,24 +37,15 @@
                     <input type="date" name="data_nasc" id="data_nasc" class="inputUser" required>
                     <label for="data_nasc"></label>
                 
-                <p><b>Sexo</b></p>
-                    <input type="radio" name="alternativa" id="Feminino" value="Feminino">
-                    <label for="opcao">Feminino</label>
-                    
-                    <input type="radio" name="alternativa" id="Masculino" value="Masculino">
-                    <label for="opcao">Masculino</label>
-                    
-                    <input type="radio" name="alternativa" id="Outro" value="Outro">
-                    <label for="opcao">Outro</label>
-
                 <p><b>Email</b></p>
                 <input type="email" name="email" id="email" class="inputUser" required>
                 
+                
                 <p><b>Telefone</b></p>
                     <input type="text" name="telefone" id="telefone" class="inputUser" required>
-                
+                <!--
                 <p><b>Endereço</b></p>
-                    <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                    <input type="text" name="endereco" id="endereco" class="inputUser" >
                 
                 <p><b>Objetivo</b></p>
                 <textarea type="text" name="objetivo" id="objetivo" cols="90" rows="5" class="inputUser"></textarea>
@@ -64,7 +55,7 @@
                 
                 <p><b>Experiência profissional</b></p>
                 <textarea type="text" name="experiencia" id="experiencia" cols="90" rows="5" class="inputUser"></textarea>
-                
+                -->
                 <br><br>
 
             <input type="submit" name="enviar" id="enviar" value="Enviar">
