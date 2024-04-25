@@ -4,3 +4,6 @@ venv/*.*
 migrations/
 migrations/*.*
 *.db
+app/__pycache__/
+app/__pycache__/*.*
+
