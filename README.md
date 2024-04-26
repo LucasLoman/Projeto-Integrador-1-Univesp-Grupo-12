@@ -73,7 +73,7 @@ flask db migrate
 Após a migração, deverá realizar o upgrade do banco para aplicar as mudanças:
 
 ```
-flask db migrate
+flask db upgrade
 ```
 
 ## Executando a aplicação
