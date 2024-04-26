@@ -13,4 +13,12 @@ class Candidato(db.Model):
     formacao: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(256), index=False, unique=False)
     experiencia: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(256), index=False, unique=False)
 
-    
+class FaleConosco(db.Model):
+    id: sqlorm.Mapped[int] = sqlorm.mapped_column(primary_key=True)
+    nome_contato: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(64), index=True, unique=True)
+    email_contato: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(64), index=False, unique=False)
+    telefone_contato: sqlorm.Mapped[int] = sqlorm.mapped_column(sqla.Integer(), index=False, unique=False)
+    endereco_contato: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(120), index=False, unique=False)
+    estado: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(256), index=False, unique=False)
+    cidade: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(256), index=False, unique=False)
+    mensagem: sqlorm.Mapped[str] = sqlorm.mapped_column(sqla.String(256), index=False, unique=False)
