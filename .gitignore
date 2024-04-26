@@ -9,4 +9,6 @@ __pycache__/*.*
 app/__pycache__/
 app/__pycache__/*.*
 
-
+*.db
+migrations/
+migrations/*.*
