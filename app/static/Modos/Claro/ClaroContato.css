@@ -39,11 +39,11 @@ input[type="text"]:hover, input[type="email"]:hover {
     background-color: #d3d3d3;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background-color: #e85a4f;
 }
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     background-color: #e43023;
 }
 

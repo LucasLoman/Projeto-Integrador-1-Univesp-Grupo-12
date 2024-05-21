@@ -15,6 +15,10 @@ main{
     align-items: start;
 }
 
+fieldset{
+    border: none;
+}
+
 select{
     width: 104%;
 }
@@ -46,7 +50,7 @@ textarea {
 
 /*Botão de envio*/
 
-input[type="button"] {
+input[type="submit"] {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
